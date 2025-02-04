@@ -835,7 +835,7 @@ const renderTopLanguages = (topLangs, options = {}) => {
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: ${colors.textColor};
+      font: 600 14px "Courier New", Courier, monospace, Sans-Serif; fill: ${colors.textColor};
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -843,7 +843,7 @@ const renderTopLanguages = (topLangs, options = {}) => {
     }
     .bold { font-weight: 700 }
     .lang-name {
-      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      font: 400 11px "Courier New", Courier, monospace;
       fill: ${colors.textColor};
     }
     .stagger {
